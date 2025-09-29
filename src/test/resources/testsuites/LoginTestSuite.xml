@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Login page">
+
+    <test name="LoginTest Chrome"  preserve-order="true" verbose="2">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="loginUrl" value="https://demo.guru99.com/V4/index.php"></parameter>
+
+        <classes>
+            <class name="tests.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="LoginTest Firefox"  preserve-order="true" verbose="2">
+        <parameter name="browser" value="Firefox"></parameter>
+        <parameter name="loginUrl" value="https://demo.guru99.com/V4/index.php"></parameter>
+
+        <classes>
+            <class name="tests.LoginTest"></class>
+        </classes>
+    </test>
+
+</suite>

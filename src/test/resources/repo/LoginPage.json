@@ -1,0 +1,8 @@
+{
+  "TXT_USER_ID": "//input[@name='uid']",
+  "LBL_USER_ID_ERROR": "//label[@id='message23']",
+  "TXT_PASSWORD": "//input[@name='password']",
+  "LBL_PASSWORD_ERROR": "//label[@id='message18']",
+  "BTN_LOGIN": "//input[@name='btnLogin']"
+
+}

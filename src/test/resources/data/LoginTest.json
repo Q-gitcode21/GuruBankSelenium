@@ -1,0 +1,15 @@
+{
+  "LG001":{
+    "USER_ID": "",
+    "ERROR_MESSAGE": "User-ID must not be blank"
+  },
+  "LG002": {
+    "USER_ID": "",
+    "ERROR_MESSAGE": "Password must not be blank"
+  },
+  "LG003": {
+    "USER_ID": "mngr637436",
+    "PASSWORD": "ugunymU",
+    "MANAGER_ID": "Manger Id : "
+  }
+}
